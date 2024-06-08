@@ -1,0 +1,26 @@
+{
+    "homepage": "https://github.com/biliup/biliup-app",
+    "description": "b站全平台投稿客户端，支持多p投稿，稿件编辑 ",
+    "version": "0.5.2",
+    "license": "Unknown",
+    "url": "https://github.com/biliup/biliup-app/releases/download/app-v0.5.2/biliup-app_0.5.2_x64_en-US.msi",
+    "hash": "8fa8d68a204eb0320c2369193ab7ee77489a1526d225648732d3ae23a723c7c2",
+    "extract_dir": "PFiles\\biliup-app",
+    "bin": "biliup-app.exe",
+    "shortcuts": [
+        [
+            "biliup-app.exe",
+            "biliup-app"
+        ]
+    ],
+    "checkver": {
+        "url": "https://github.com/biliup/biliup-app/releases",
+        "regex": "App v([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://github.com/biliup/biliup-app/releases/download/app-v$version/biliup-app_$version_x64_en-US.msi",
+        "hash": {
+            "mode": "download"
+        }
+    }
+}
