@@ -8,9 +8,11 @@
     "installer": {
         "script": [
             "7z x \"$dir/dl\" -o\"$dir\" -pdogfight360",
-            "Get-ChildItem $dir\\CSGO_DOTA2_观战&匹配区域锁定*.exe | Select-Object -First 1 | Rename-Item -NewName 'CSGO_DOTA2_观战&匹配区域锁定.exe'"
+            "Get-ChildItem \"$dir\\CSGO_DOTA2_观战&匹配区域锁定*.exe\" | Select-Object -First 1 | Rename-Item -NewName 'CSGO_DOTA2_观战&匹配区域锁定.exe'",
+            "Remove-Item \"$dir/dl\""
         ]
     },
+    "post_install": "Set-ItemProperty -Path \"HKCU:\\Software\\Microsoft\\Windows NT\\CurrentVersion\\AppCompatFlags\\Layers\" -Name \"$dir\\CSGO_DOTA2_观战&匹配区域锁定.exe\" -Value \"~ RUNASADMIN\"",
     "shortcuts": [
         [
             "CSGO_DOTA2_观战&匹配区域锁定.exe",
