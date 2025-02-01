@@ -4,7 +4,7 @@
     "homepage": "https://www.sordum.org/windows-update-blocker",
     "license": "Freeware",
     "url": "https://www.sordum.org/files/download/windows-update-blocker/Wub.zip",
-    "hash": "c9276a36930aa9e3d58b5851973b67ffe8a7c2828774198e3986df0574cef0bf",
+    "hash": "61112ac559368280d1c8ffc390317bffb38ff145e9b587893cee8ccb2fab7458",
     "extract_dir": "Wub",
     "architecture": {
         "64bit": {
