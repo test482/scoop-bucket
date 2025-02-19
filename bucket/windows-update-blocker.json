@@ -3,8 +3,8 @@
     "description": "Windows Update Blocker is a freeware that helps you to completely disable or enable Automatic Updates on your Windows system , with just a click of the button",
     "homepage": "https://www.sordum.org/windows-update-blocker",
     "license": "Freeware",
-    "url": "https://www.sordum.org/files/download/windows-update-blocker/Wub.zip",
-    "hash": "61112ac559368280d1c8ffc390317bffb38ff145e9b587893cee8ccb2fab7458",
+    "url": "https://drive.usercontent.google.com/download?id=1N_XtcQHA6iSMC8YvL0_WIJ6n2AH0wePf#/Wub.zip",
+    "hash": "ba2563e06801d3c7360c5ba2459cc24456f301e546489393d86b97ab82d7c0c2",
     "extract_dir": "Wub",
     "architecture": {
         "64bit": {
@@ -23,9 +23,5 @@
                 ]
             ]
         }
-    },
-    "checkver": "Windows Update Blocker v([\\d.]+)",
-    "autoupdate": {
-        "url": "https://www.sordum.org/files/download/windows-update-blocker/Wub.zip"
     }
 }
