@@ -21,6 +21,7 @@
             "UsbEAm Hosts Editor"
         ]
     ],
+    "depends": "main/7zip",
     "checkver": {
         "regex": "uploads/(?<date>[\\d/]+)/UsbEAm_Hosts_Editor_V([\\d.]+)"
     },
