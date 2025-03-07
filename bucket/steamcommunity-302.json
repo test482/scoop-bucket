@@ -24,7 +24,7 @@
     ],
     "depends": "main/7zip",
     "checkver": {
-        "regex": "uploads/(?<date>[\\d/]+)/steamcommunity_302_V([\\d.]+)"
+        "regex": "uploads/(?<date>[\\d/]+)/steamcommunity_302_V([\\d]+(?:\\.[\\d]+)*)"
     },
     "autoupdate": {
         "url": "https://www.dogfight360.com/blog/wp-content/uploads/$matchDate/steamcommunity_302_V$version.zip#/dl"
