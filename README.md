@@ -12,6 +12,6 @@ scoop install test482/<manifestname>
 
 ## Bucket filename style
 
-短横线还是下划线取决于上游仓库（如果有的话）命名，否则短横线。
+Use underscore if upstream repository name has; otherwise, use hyphen.
 
-英文字母一律小写。
+All letters should be in lowercase.
