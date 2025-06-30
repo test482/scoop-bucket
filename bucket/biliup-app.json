@@ -14,7 +14,7 @@
     ],
     "checkver": {
         "github": "https://github.com/biliup/biliup-app",
-        "regex": "App v([\\d.]+)"
+        "regex": "App v([\\d]+(?:\\.[\\d]+)*)"
     },
     "autoupdate": {
         "url": "https://github.com/biliup/biliup-app/releases/download/app-v$version/biliup-app_$version_x64_en-US.msi"
